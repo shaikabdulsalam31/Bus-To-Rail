@@ -1,0 +1,39 @@
+.general-helpline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table{
+    width: 700px;
+    height: 700px;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+    
+}
+body{
+    margin: 0;
+    top: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(135deg, #3084f2,#fedf77);
+    color: #333;
+}
+td{
+    text-align: center;
+    font-size: large;
+}
+th{
+    font-size: 24px;
+}
+a{
+    top: 5px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(3, 100, 117);
+    border-radius: 2px;
+}
+a:hover{
+    background-color: #333;
+    color: aliceblue;
+}

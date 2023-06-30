@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Details Page</title>
+  <link rel="stylesheet" href="detail.css">
+</head>
+<body>
+  <a href="/Project/index.html" class="home">...Go To HomePage</a>
+  <div class="container">
+      <h2>Details:</h2>
+      <p>Route details: <span id="field1"></span></p>
+      <p>Bus Numbers: <span id="field2"></span></p>
+      <p>Fare: <span id="field3"></span></p>
+      <p>Intermediate Stops: <span id="field4"></span></p>
+      <p>Frequency of Buses: <span id="field5"></span></p>
+ </div>
+  <script>
+    // Retrieve the details from the URL parameters
+    var params = new URLSearchParams(window.location.search);
+    var field1 = params.get('field1');
+    var field2 = params.get('field2');
+    var field3 = params.get('field3');
+    var field4 = params.get('field4')
+    var field5 = params.get('field5')
+    // Set the details in the HTML elements
+    document.getElementById('field1').textContent = field1;
+    document.getElementById('field2').textContent = field2;
+    document.getElementById('field3').textContent = field3;
+    document.getElementById('field4').textContent = field4;
+    document.getElementById('field5').textContent = field5;
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+

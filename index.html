@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Home/mainpage.css">
+  <title>RailtoBus</title>
+</head>
+
+<body>
+  <div class="homepage">
+    <nav class="navigate">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="/Project/RailRoute/Railroute.html">Rail Route</a></li>
+        <li><a href="/Project/Busroute/Busroute.html">Bus Route</a></li>
+        <li><a href="/Project/Home/helpline.html">HelpLine Numbers</a></li>
+        <li><a href="/Project/Home/About.html">About Us</a></li>
+      </ul>
+    </nav>
+
+    <div class="welcomenote">
+      <p>Welcome to the Bus-TO-Rail Website.<br>Discover the ultimate convenience of exploring various Rail, Bus, and BMTC route details effortlessly.<br>Unlock the power of BMTC Tracker below ⏬ ..Unleash the possibilities!</p>
+    </div>
+
+    <div class="bmtcblock">
+      <div class="track">
+        <h2>BMTC Tracker</h2>
+        <form id="checker">
+          <label for="from">From:</label>
+          <input type="text" id="from" name="from">
+          <ul id="result" class="search-results"></ul>
+          <br>
+          <label for="dest">To:</label>
+          <input type="text" id="dest" name="dest">
+          <ul id="toresult" class="search-results"></ul>
+          <br>
+          <input type="submit" id="submitbtn" value="Submit">
+        </form>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p>&copy; 2023 RailtoBus. All rights reserved. | Website by Shaik Abdul Salam and Trupti Gouda</p>
+      </div>
+    </footer>
+  </div>
+  <script src="./Home/script.js"></script>
+</body>
+
+</html>

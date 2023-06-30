@@ -1,0 +1,27 @@
+[ 
+    {"from":"K.R.Market","to":"Kenchanpura cross","details":"This route has only Non-AC Buses","busno":"223A,223D,223L,(234,235-->401K),226MB,227U,227VA","fare":"Rs.20-25",
+    "intermediate":["St Joseph Church","Royan Circle","Water Tank Chamrajpet","Sirsi Circle","Gopalan Mall","Kasturba Nagar","Satellite Bus Station","BHEL","Nayandahalli Metro","RajaRajeshwari Nagar","Bangalore University Gate","Bangalore University Ladies Hostel","BU library","BU Administrative Block","PVP School","Mariyappana Palya","JagaJyothi Layout"],
+    "distance":"11 Kms with Travel time average of 50 mins",
+    "frequency":"High"},
+    {"from":"Bommanahalli","to":"Madivala","details":"This route has three different buses namely Ac Buses , Non-Ac Buses, Electric Buses","busno":"356M,KBS3A,KBS3E,343,343B,343L,343H,360B,346H,347,352A,G-3","fare":"Rs.10","intermediate":["Silk Board","Roopena Agrahara"],"frequency":"High","distance":"2 Km and travel time: 5 mins"},
+    {"from":"st.johns","to":"TilakNagara",
+    "details":"There is No direct Buses available in this route , Have to change Bus from Lalbagh",
+    "busno":"343B,343,360K,356M,KBS3C---->25A,369E,364B,25B",
+    "fare":"Rs.20",
+    "intermediate":["Christ College","Nimhans","Lakkasandra","LalBagh Main Gate","<----Change Bus---->","Rv College","South End Circle","Jayanagar 3rd Block","Jayanagar 4th Block","Tilak Nagar"],
+    "distance":"4.6 Kms with average travel time of 30 mins",
+    "frequency":"Rare"},
+    {"from":"K.R.Market","to":"Madivala"
+    ,"busno":"352,343,360,346J",
+     "details":"There are all three types of Buses available",
+    "distance":"8 Kms with average Travel time of 40-45 mins",
+    "fare":"Rs.20-25",
+    "intermediate":["st.johns","CheckPost","Christ College","Nimhans","Lakkasandra","Wilson Garden","LalBagh Hopcoms","LalBagh Main Gate","JC Road","Town Hall"],
+    "frequency":"High"},
+    {"from":"K.R.Puram","to":"Baiyapanahalli","details":"metro"},
+    {"from":"M.G.Road","to":"Shivajinagara","details":"G-3"},
+    {"from":"ITPL","to":"Banashankari","details":"500A"}
+] 
+
+
+

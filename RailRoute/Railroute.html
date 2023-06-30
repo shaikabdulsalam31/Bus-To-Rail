@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rail.css">
+    <title>RailRoute</title>
+</head>
+<body>
+    <a class="back-link" href="/Project/index.html">&larr; Back</a>
+    <div class="welcomenote">
+        <p>Welcome to the Rail Route Section.<br>This page provides information about various rail routes and helps you plan your journey efficiently.<br>Explore the available routes, check train schedules, and find the best fares. Start your rail adventure today!</p>
+    </div>
+    <div class="ultra-main">
+    <div class="first">
+    <div class="main">
+        <div class="form">
+            <form action="">
+                <h1>Search By Name</h1>
+                <label for="from">From:</label>
+                <input type="text" name="from" id="from" />
+                <ul class="result" id="fromresult"></ul>
+                <label for="to">To:</label>
+                <input type="text" name="to" id="to" />
+                <ul class="result" id="toresult"></ul>
+                <input type="submit" value="Search Train" id="submitbtn">
+            </form>
+        </div>
+    </div>
+    </div>
+    <div class="second">
+    <div class="number">
+        <div class="form" >
+            <form action="" id="numbu">
+                <h1>Search By Number</h1>
+                <label for="numb">Train Number:</label>
+                <input type="text" name="numb" id="numb">
+                <ul id="getr" class="result"></ul>
+                <input type="submit" value="Get Data" id="getbynum">
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+    <script src="rails.js"></script>
+</body>
+</html>
