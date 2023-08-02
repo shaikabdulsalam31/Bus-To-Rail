@@ -10,6 +10,7 @@ body {
   background-image: url('bgimg.jpg');
 }
 
+/* Navigation Bar */
 .navigate {
   background-color: #a2b3b8;
   padding: 10px;
@@ -63,6 +64,7 @@ body {
   transform: scaleX(1);
 }
 
+/* Welcome Note Section */
 .welcomenote {
   font-size: 20px;
   display: flex;
@@ -82,7 +84,6 @@ body {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
   transform: translateY(-5px);
   background-color: #476b84;
-
 }
 
 .welcomenote p {
@@ -117,6 +118,7 @@ body {
   }
 }
 
+/* Track Section */
 .bmtcblock {
   display: flex;
   justify-content: center;
@@ -130,7 +132,7 @@ body {
   align-items: center;
   width: 500px;
   padding: 35px;
-  background-color:#a2b3b8;
+  background-color: #a2b3b8;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   transition: all 0.3s ease;
@@ -169,8 +171,9 @@ body {
   background-color: #cbc7c7;
   border: 1px solid #ccc;
 }
-.track input[type="text"]:hover{
-   border-radius: 5px;
+
+.track input[type="text"]:hover {
+  border-radius: 5px;
 }
 
 .search-results {
@@ -213,6 +216,7 @@ body {
   transform: scale(1.1);
 }
 
+/* Footer Section */
 .footer {
   background-color: #a2b3b8;
   padding: 10px;
@@ -235,3 +239,4 @@ body {
 .footer a:hover {
   color: #1e90ff;
 }
+
