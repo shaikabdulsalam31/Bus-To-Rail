@@ -13,7 +13,7 @@ body {
 /* Navigation Bar */
 .navigate {
   background-color: #a2b3b8;
-  padding: 10px;
+  padding: 1rem;
   position: sticky;
   top: 0;
   z-index: 1;
@@ -30,14 +30,14 @@ body {
 }
 
 .navigate li {
-  margin: 0 20px;
+  margin: 0 2rem;
 }
 
 .navigate li a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 1rem;
   color: #333; 
-  padding: 10px 15px;
+  padding: 1rem 1.5rem;
   border-radius: 5px;
   transition: all 0.3s ease;
 }
@@ -66,29 +66,29 @@ body {
 
 /* Welcome Note Section */
 .welcomenote {
-  font-size: 20px;
+  font-size: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 5% 20%;
-  padding: 20px;
+  margin: 5% 10%;
+  padding: 2rem;
   text-align: center;
   font-weight: bold;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  border-radius: 2rem;
   background-color: #a2b3b8;
   transition: all 0.3s ease;
 }
 
 .welcomenote:hover {
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
   transform: translateY(-5px);
   background-color: #476b84;
 }
 
 .welcomenote p {
   margin: 0;
-  padding: 10px;
+  padding: 1rem;
   line-height: 1.9;
 }
 
@@ -107,15 +107,7 @@ body {
   width: 80px;
   height: 3px;
   background-color: #87ceeb;
-  margin: 20px auto;
-}
-
-@media (max-width: 768px) {
-  .welcomenote {
-    font-size: 18px;
-    margin: 10% 15%;
-    padding: 20px;
-  }
+  margin: 2rem auto;
 }
 
 /* Track Section */
@@ -123,25 +115,25 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 40px 0;
+  margin: 4rem 0;
 }
 
 .track {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 500px;
-  padding: 35px;
+  width: 50%;
+  padding: 3rem;
   background-color: #a2b3b8;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
   transition: all 0.3s ease;
   position: relative;
 }
 
 .track:hover {
   transform: scale(1.05);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
   background-color: #476b84;
   color: #fff;
 }
@@ -149,47 +141,47 @@ body {
 .track h2 {
   margin-top: 0;
   color: #333;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .track form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 
 .track label {
-  font-size: 18px;
-  margin-bottom: 5px;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
   color: #333;
 }
 
 .track input[type="text"] {
-  padding: 8px;
-  font-size: 16px;
+  padding: 0.5rem;
+  font-size: 1rem;
   background-color: #cbc7c7;
   border: 1px solid #ccc;
 }
 
 .track input[type="text"]:hover {
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
 .search-results {
   position: relative;
   width: 100%;
   background-color: #bfbcbc;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
   list-style: none;
   padding: 0;
-  margin-top: 5px;
+  margin-top: 0.5rem;
   display: none;
 }
 
 .search-results li {
-  padding: 8px;
+  padding: 0.5rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -199,14 +191,14 @@ body {
 }
 
 #submitbtn {
-  padding: 10px 20px;
-  font-size: 18px;
+  padding: 1rem 2rem;
+  font-size: 1rem;
   border: none;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   background-color: #0a6387;
   color: #333;
   cursor: pointer;
-  margin-top: 20px;
+  margin-top: 2rem;
   transition: all 0.3s ease;
 }
 
@@ -219,11 +211,11 @@ body {
 /* Footer Section */
 .footer {
   background-color: #a2b3b8;
-  padding: 10px;
+  padding: 1rem;
   text-align: center;
-  font-size: 14px;
+  font-size: 1rem;
   color: #333;
-  margin-top: 40px;
+  margin-top: 4rem;
 }
 
 .footer p {
@@ -239,4 +231,25 @@ body {
 .footer a:hover {
   color: #1e90ff;
 }
+
+/* Media Queries for Responsive Layout */
+@media (max-width: 768px) {
+  .welcomenote {
+    font-size: 1.5rem;
+    margin: 10% 5%;
+    padding: 1rem;
+  }
+
+  .bmtcblock {
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+  }
+
+  .track {
+    width: 80%;
+    padding: 2rem;
+  }
+}
+
 
